@@ -11,7 +11,9 @@
 		736F9D6329C075E300E5CED9 /* Experiment1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F9D6229C075E300E5CED9 /* Experiment1View.swift */; };
 		736F9D6529C075E400E5CED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736F9D6429C075E400E5CED9 /* Assets.xcassets */; };
 		736F9D6929C075E400E5CED9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736F9D6829C075E400E5CED9 /* Preview Assets.xcassets */; };
-		736F9D7129C076B100E5CED9 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F9D7029C076B100E5CED9 /* HapticsManager.swift */; };
+		736F9D7129C076B100E5CED9 /* Experiment1HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F9D7029C076B100E5CED9 /* Experiment1HapticsManager.swift */; };
+		736F9D7429C07C0C00E5CED9 /* Experiment2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F9D7329C07C0C00E5CED9 /* Experiment2View.swift */; };
+		736F9D7629C07C2300E5CED9 /* Experiment2Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F9D7529C07C2300E5CED9 /* Experiment2Button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +23,9 @@
 		736F9D6429C075E400E5CED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		736F9D6629C075E400E5CED9 /* HapticsExperiments.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HapticsExperiments.entitlements; sourceTree = "<group>"; };
 		736F9D6829C075E400E5CED9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		736F9D7029C076B100E5CED9 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		736F9D7029C076B100E5CED9 /* Experiment1HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experiment1HapticsManager.swift; sourceTree = "<group>"; };
+		736F9D7329C07C0C00E5CED9 /* Experiment2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experiment2View.swift; sourceTree = "<group>"; };
+		736F9D7529C07C2300E5CED9 /* Experiment2Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experiment2Button.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +58,11 @@
 		736F9D5F29C075E300E5CED9 /* HapticsExperiments */ = {
 			isa = PBXGroup;
 			children = (
-				736F9D6F29C0767E00E5CED9 /* Experiment1 */,
-				736F9D6029C075E300E5CED9 /* HapticsExperimentsApp.swift */,
 				736F9D6429C075E400E5CED9 /* Assets.xcassets */,
+				736F9D6F29C0767E00E5CED9 /* Experiment1 */,
+				736F9D7229C07BEE00E5CED9 /* Experiment2 */,
 				736F9D6629C075E400E5CED9 /* HapticsExperiments.entitlements */,
+				736F9D6029C075E300E5CED9 /* HapticsExperimentsApp.swift */,
 				736F9D6729C075E400E5CED9 /* Preview Content */,
 			);
 			path = HapticsExperiments;
@@ -75,9 +80,18 @@
 			isa = PBXGroup;
 			children = (
 				736F9D6229C075E300E5CED9 /* Experiment1View.swift */,
-				736F9D7029C076B100E5CED9 /* HapticsManager.swift */,
+				736F9D7029C076B100E5CED9 /* Experiment1HapticsManager.swift */,
 			);
 			path = Experiment1;
+			sourceTree = "<group>";
+		};
+		736F9D7229C07BEE00E5CED9 /* Experiment2 */ = {
+			isa = PBXGroup;
+			children = (
+				736F9D7329C07C0C00E5CED9 /* Experiment2View.swift */,
+				736F9D7529C07C2300E5CED9 /* Experiment2Button.swift */,
+			);
+			path = Experiment2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				736F9D7129C076B100E5CED9 /* HapticsManager.swift in Sources */,
+				736F9D7129C076B100E5CED9 /* Experiment1HapticsManager.swift in Sources */,
 				736F9D6329C075E300E5CED9 /* Experiment1View.swift in Sources */,
+				736F9D7629C07C2300E5CED9 /* Experiment2Button.swift in Sources */,
+				736F9D7429C07C0C00E5CED9 /* Experiment2View.swift in Sources */,
 				736F9D6129C075E300E5CED9 /* HapticsExperimentsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

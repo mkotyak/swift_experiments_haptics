@@ -1,7 +1,7 @@
 import UIKit
 
-final class HapticsManager {
-    static let instance = HapticsManager()
+final class Experiment1HapticsManager {
+    static let instance = Experiment1HapticsManager()
 
     func notification(type: UINotificationFeedbackGenerator.FeedbackType) {
         let generator = UINotificationFeedbackGenerator()
