@@ -8,7 +8,7 @@ struct Experiment2Button: View {
     var body: some View {
         Button {
             action()
-            UIImpactFeedbackGenerator(style: .soft).impactOccurred()
+            UIImpactFeedbackGenerator(style: hapticStyle).impactOccurred()
         } label: {
             ZStack {
                 Text(text)
